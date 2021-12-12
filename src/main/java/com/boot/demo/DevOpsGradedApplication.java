@@ -7,8 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DevOpsGradedApplication {
 
 	public static void main(String[] args) {
-		System.out.println("Hello Dev-Ops");
+		
 		SpringApplication.run(DevOpsGradedApplication.class, args);
+		System.out.println("Hello Dev-Ops");
 	}
 
 }
